@@ -1,0 +1,30 @@
+:root {
+  --background-color: #2e2a2a;
+  --font-color: #fffffc;
+  --font-fam: "Roboto Mono", monospace;
+}
+body {
+  height: 100vh;
+  background-color: var(--background-color);
+  margin: 0rem;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+P {
+  color: var(--font-color);
+  font-size: 8vw;
+  font-family: var(--font-fam);
+  margin: 0rem;
+  text-transform: uppercase;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main:has(.cool:hover) .word:not(.cool:hover) {
+  opacity: 0.2;
+}
