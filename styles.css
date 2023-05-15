@@ -40,12 +40,10 @@ a {
 
 .cool:hover > .play {
   transition-duration: 800ms;
-  color: #0061ff;
 }
 
 .cool:hover > .play:nth-child(1) {
   transform: translate(-80%, 60%) rotate(8deg);
-  color: #0061ff;
 }
 
 .cool:hover > .play:nth-child(2) {
@@ -70,12 +68,4 @@ a {
 
 .cool:hover > .play:nth-child(7) {
   transform: translate(0%, -50%) rotate(8deg);
-}
-
-.play:hover {
-  background: linear-gradient(to right, #0061ff, #45caff, #ff1b6b);
-  background-size: 1000%;
-
-  -webkit-text-fill-color: transparent;
-  animation: background-pan 150s linear infinite;
 }
